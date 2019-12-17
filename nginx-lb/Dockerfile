@@ -1,4 +1,4 @@
-M nginx
+FROM nginx
 USER root
 MAINTAINER student32
 RUN rm /etc/nginx/conf.d/default.conf
